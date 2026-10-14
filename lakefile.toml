@@ -1,0 +1,19 @@
+name = "lean-playground"
+version = "0.1.0"
+defaultTargets = ["lean-playground"]
+
+[[lean_lib]]
+name = "LeanPlayground"
+
+[[lean_exe]]
+name = "lean-playground"
+root = "Main"
+
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+rev = "main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
